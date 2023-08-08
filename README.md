@@ -15,6 +15,8 @@
     6. touch projectlib/api.py
     7. touch main.py
 5. Populate the Make file
-
+6. Popuate the Requirements file with all install details required.
+7. Run 'make install'
+8. Then attach the versions to requirements file. First list the versions of install using 'pip freeze | less' . This command will list all installations with versions
 
 
