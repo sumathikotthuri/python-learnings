@@ -1,3 +1,6 @@
+[![Python application to learn Git hub Actions](https://github.com/sumathikotthuri/python-learnings/actions/workflows/dev-continous-integration.yml/badge.svg)](https://github.com/sumathikotthuri/python-learnings/actions/workflows/dev-continous-integration.yml)
+
+
 # python-learnings
 
 
