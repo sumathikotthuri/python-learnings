@@ -1,4 +1,6 @@
-"""Module providingFunction printing python version."""
-from projectlib.sample import sample_print
+"""
+Module to call the functions
+"""
+from projectlib.sample import reverse
 
-print(sample_print())
+print(reverse("sumathi"))

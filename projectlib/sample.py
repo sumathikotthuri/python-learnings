@@ -3,9 +3,9 @@ I am here a sample module
 """
 
 
-def sample_print():
+def reverse(name):
     """
-    I am here to Print
+    I am here to Reverse
     """
-    print("Printing...")
-    return "Done"
+    reverse_name = name[::-1]
+    return reverse_name
