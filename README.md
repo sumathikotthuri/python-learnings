@@ -25,5 +25,6 @@
 10. Check out this project workflow file, which works on push to this repository.
 11. Configured pre-commit hooks file , How to configure pre-hooks ? Details here : https://github.com/sumathikotthuri/github-learnings
 12. Wrote some sample functions & sample tets functions to test the pylint,pytest and coverage stages
-13.Add fastapi,uvicorn to requirements.txt and run 'make install' to setup the micro service
-14.
+13. Add fastapi,uvicorn to requirements.txt and run 'make install' to setup the micro service
+14. Same functions & test file to test the functions
+15. Sample api calls & test file to test the api calls
