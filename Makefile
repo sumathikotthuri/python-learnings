@@ -1,6 +1,7 @@
 install:
 	#install commends
 	pip install --upgrade pip &&\
+		pre-commit install &&\
 		pip install -r requirements.txt
 lint:
 	#linting tools
