@@ -1,8 +1,9 @@
 install:
 	#install commends
 	pip install --upgrade pip &&\
-		pre-commit install &&\
 		pip install -r requirements.txt
+post-install:
+	pre-commit install
 lint:
 	#linting tools
 test:
@@ -17,4 +18,4 @@ run:
 deploy:
 	#deploy
 
-all: install lint test bbuild deploy
+all: install post-install lint test build run deploy
