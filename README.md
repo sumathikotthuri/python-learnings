@@ -22,6 +22,8 @@
 7. Run 'make install'
 8. Then attach the versions to requirements file. First list the versions of install using 'pip freeze | less' . This command will list all installations with versions.
 9. Go to Git Hub actions, then write work flow yaml file. You can get the sample workflow file python from git hub searck workflow bar.
-10. Check out this project workflow file, which execution on push to this repository.
+10. Check out this project workflow file, which works on push to this repository.
 11. Configured pre-commit hooks file , How to configure pre-hooks ? Details here : https://github.com/sumathikotthuri/github-learnings
-12.
+12. Wrote some sample functions & sample tets functions to test the pylint,pytest and coverage stages
+13.Add fastapi,uvicorn to requirements.txt and run 'make install' to setup the micro service
+14.

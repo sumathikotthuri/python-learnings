@@ -1,2 +1,3 @@
-__pycache__
+__pycache__/
+testlib/__pycache__/
 .coverage
