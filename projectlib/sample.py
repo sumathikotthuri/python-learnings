@@ -9,3 +9,11 @@ def reverse(name):
     """
     reverse_name = name[::-1]
     return reverse_name
+
+
+def swap(first_string, second_string):
+    """
+    I am here to Swap
+    """
+    first_string, second_string = second_string, first_string
+    return first_string, second_string
