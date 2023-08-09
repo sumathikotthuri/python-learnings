@@ -13,7 +13,7 @@ async def root():
     """
     I can help in doing operations like Reverse String , Swap Strings
     """
-    return {"Use me to Reverse String & Swaping any 2 String variables"}
+    return {"message": "Use me to Reverse String & Swaping any 2 String variables"}
 
 
 @app.get("/reverse/{value}")
@@ -22,6 +22,7 @@ async def reverse_string(value: str):
     I can help you to Reverse String
     """
     result = reverse(value)
+    print(result)
     return {"result": result}
 
 
